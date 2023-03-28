@@ -27,3 +27,5 @@ or
 ## Results
 
 We will report both the quantitative results(both S3DIS and Scannet) and qualitative results(Only S3DIS)
+
+### Qualitative Results
