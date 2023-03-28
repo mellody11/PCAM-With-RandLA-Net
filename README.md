@@ -29,3 +29,7 @@ or
 We will report both the quantitative results(both S3DIS and Scannet) and qualitative results(Only S3DIS)
 
 ### Qualitative Results
+<img src="https://github.com/mellody11/PCAM-With-RandLA-Net/blob/master/pic/1.png" width="400px"><img src="https://github.com/mellody11/PCAM-With-RandLA-Net/blob/master/pic/2.png" width="400px">
+<img src="https://github.com/mellody11/PCAM-With-RandLA-Net/blob/master/pic/3.png" width="400px"><img src="https://github.com/mellody11/PCAM-With-RandLA-Net/blob/master/pic/4.png" width="400px">
+<img src="https://github.com/mellody11/PCAM-With-RandLA-Net/blob/master/pic/5.png" width="400px"><img src="https://github.com/mellody11/PCAM-With-RandLA-Net/blob/master/pic/6.png" width="400px">
+
