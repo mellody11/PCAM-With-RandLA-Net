@@ -43,8 +43,8 @@ dataset = S3DIS(FLAGS.test_area)
 
 training_dataset = S3DISSampler(dataset, 'training')
 validation_dataset = S3DISSampler(dataset, 'validation')
-training_dataloader= DataLoader(training_dataset, batch_size=cfg.batch_size, shuffle=True, collate_fn=training_dataset.collate_fn)
-validation_dataloader = DataLoader(validation_dataset, batch_size=cfg.val_batch_size, shuffle=True, collate_fn=validation_dataset.collate_fn)
+training_dataloader= DataLoader(training_dataset, batch_size=cfg.batch_size, num_workers=4, shuffle=True, collate_fn=training_dataset.collate_fn)
+validation_dataloader = DataLoader(validation_dataset, batch_size=cfg.val_batch_size, num_workers=4, shuffle=True, collate_fn=validation_dataset.collate_fn)
 
 print(len(training_dataloader), len(validation_dataloader))
 
